@@ -24,7 +24,7 @@ if uploaded_file is not None:
 
     
 if 'dataFrame' not in st.session_state:
-    st.write('Data is empty, Please upload dataset')
+    st.write('Data is em, Please upload dataset')
 else:
     df = st.session_state['dataFrame']
     st.write(st.session_state['dataFrame'])
